@@ -49,4 +49,4 @@ bun run bundle-test
 
 ### Deployment (GitHub Pages)
 
-Deployment is automated using GitHub Actions. Pushes to the `main` branch will trigger a build and deploy the site to GitHub Pages. By default, it uses repository name to define base path for the web application. If you want to use a custom base path, you can set the `BASE_PATH` repository variable in your repository settings. Note that you should not include leading slash in the `BASE_PATH` value.
+Deployment is automated using GitHub Actions. Pushes to the `main` branch will trigger a build and deploy the site to GitHub Pages. By default, it uses the repository name to define the base path for the web application. If you want to use a custom base path, you can set the `BASE_PATH` repository variable in your repository settings. Note that you should not include a leading slash in the `BASE_PATH` value.
